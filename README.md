@@ -8,11 +8,12 @@ to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
   Remember to update the wifi stuff before uploading ;) Happy coding!
   
   You will also need libraries in addition to the 'normal' inbuilt ones:
-  - [TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
-  - [Button2](https://github.com/LennartHennigs/Button2)
+    - [TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
+    - [Button2](https://github.com/LennartHennigs/Button2)
   
-- Button 2 is defined, as a carry over from the TTGO_T_Display code, may or may not do anything with these, but there are two buttons to do something with.  
-- The TFT_eSPI User_Setup_Select.h file needs to be edited from the default to compile correctly, as per the instructions it the related git repo readme.md
+  Additional info:
+    - Button 2 is defined, as a carry over from the TTGO_T_Display code, may or may not do anything with these, but there are two buttons to do something with.  
+    - The TFT_eSPI User_Setup_Select.h file needs to be edited from the default to compile correctly, as per the instructions it the related git repo readme.md
 
 ## A few issues since discovered that may trip new users:
 
