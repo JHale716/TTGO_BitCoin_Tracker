@@ -1,6 +1,6 @@
 # TTGO BitCoin Tracker
 
-An adaption of [TTGO T4 Demo}(https://github.com/LilyGO/TTGO-T4-DEMO)
+An adaption of [TTGO T4 Demo](https://github.com/LilyGO/TTGO-T4-DEMO)
 to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
 
   Liked the idea and have the https://github.com/Xinyuan-LilyGO/TTGO-T-Display so adapted to suit.
