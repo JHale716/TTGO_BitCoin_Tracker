@@ -8,8 +8,8 @@ to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
   Remember to update the wifi stuff before uploading ;) Happy coding!
   
   You will also need libraries in addition to the 'normal' inbuilt ones:
-    - [TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
-    - [Button2](https://github.com/LennartHennigs/Button2)
+  - [TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
+  - [Button2](https://github.com/LennartHennigs/Button2)
   
   Additional info:
     - Button 2 is defined, as a carry over from the TTGO_T_Display code, may or may not do anything with these, but there are two buttons to do something with.  
@@ -30,7 +30,9 @@ to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
   Break out you favourite terminal editor
   cd into you sketechbook libraries folder.
   From there:
-  ```$ git clone https://github.com/JHale716/ArduinoJson5.git ArduinoJson-v5.13.5```
+  ```
+  $ git clone https://github.com/JHale716/ArduinoJson5.git ArduinoJson-v5.13.5
+  ```
   This will place the repo and the ArduinoJson-v5.13.5.h file for ArduinoJson5 into this folder.
 
   In your sketch, substitute ArduinoJson.h for ArduinoJson-v5.13.5.h and you'll be good to go!
