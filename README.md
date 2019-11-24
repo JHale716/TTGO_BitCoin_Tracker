@@ -23,7 +23,7 @@ to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
 
   However, there is a work around, while still having Arduino Json 6 installed.
 
-  All of this is from the Arduino Json v5 site. Any linking is for convenience purposes and no code changes are intended or made to the ArduinoJson5xxx.h files. original source https://arduinojson.org/v5/doc/installation/ (i.e. you could achieve the same thing with a download and manual placement)
+  All of this is from the Arduino Json v5 site. Any linking is for convenience purposes and no code changes are intended or made to the ArduinoJson5xxx.h files. Original source https://arduinojson.org/v5/doc/installation/ (i.e. you could achieve the same thing with a download and manual placement)
 
   To execute:
 
@@ -41,7 +41,7 @@ to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
 
   Python 2 & Python 3... the esptools.py scripts can do some interesting things.
 
-  If you are getting Serial errors, then this issue log may be useful. https://github.com/espressif/esptool/issues/324
+  If you are getting Serial errors, then this issue log may be useful. [ESPTool Issue 324](https://github.com/espressif/esptool/issues/324)
 
   Specifically for a reasonably clean ubuntu install the following was helpful
   ```
