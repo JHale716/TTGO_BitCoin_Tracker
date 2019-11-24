@@ -7,9 +7,10 @@ An adaption of https://github.com/LilyGO/TTGO-T4-DEMO to run on the https://gith
   Remember to update the wifi stuff before uploading ;) Happy coding!
   
   You will also need libraries in addition to the normal inbuilt ones:
-  `https://github.com/Bodmer/TFT_eSPI`
-  `https://github.com/LennartHennigs/Button2`
-  
+  ```
+  https://github.com/Bodmer/TFT_eSPI
+  https://github.com/LennartHennigs/Button2
+  ```
 Button 2 is defined, as a carry over from the TTGO_T_Display code, may or may not do anything with these, but there are two buttons to do something with.  
 The TFT_eSPI User_Setup_Select.h file needs to be edited from the default to compile correctly, as per the instructions it the related git repo readme.md
 
@@ -29,8 +30,9 @@ Terminal
 cd into you sketechbook libraries folder.
 
 From there:
-`$ git clone https://github.com/JHale716/ArduinoJson5.git ArduinoJson-v5.13.5`
-
+```
+$ git clone https://github.com/JHale716/ArduinoJson5.git ArduinoJson-v5.13.5`
+```
 This will place the repo and the ArduinoJson-v5.13.5.h file for ArduinoJson5 into this folder.
 
 In your sketch, substitute ArduinoJson.h for ArduinoJson-v5.13.5.h and you'll be good to go!
@@ -44,10 +46,12 @@ If you are getting Serial errors, then this issue log may be useful.https://gith
 
 Specifically for a reasonably clean ubuntu install the following was helpful
 
-`sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get upgrade
 sudo pip install esptool
-sudo pip install --ignore-installed pyserial`
+sudo pip install --ignore-installed pyserial
+```
 
 There is a good chance your system is looking at Python3 or you have pyserial for python3 installed...
 The above commands install for python2, as I'm writing this, v2.7.
