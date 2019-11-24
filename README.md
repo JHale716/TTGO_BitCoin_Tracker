@@ -14,9 +14,9 @@ Button 2 is defined, as a carry over from the TTGO_T_Display code, may or may no
   
 The TFT_eSPI User_Setup_Select.h file needs to be edited from the default to compile correctly, as per the instructions it the related git repo readme.md
 
-A few issues that may trip new users:
+# A few issues that may trip new users:
 
-Ardunio Json:
+# Ardunio Json:
 
 If you have Arduino Json installed it is likely version 6, this sketch needs version 5, and I haven't the inclination to pull it across. 
 
@@ -37,7 +37,7 @@ This will place the repo and the ArduinoJson-v5.13.5.h file for ArduinoJson5 int
 In your sketch, substitute ArduinoJson.h for ArduinoJson-v5.13.5.h and you'll be good to go!
 
 
-Python:
+# Python:
 
 Python 2 & Python 3... the esptools.py scripts can do some interesting things.
 
