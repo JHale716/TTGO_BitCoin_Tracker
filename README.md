@@ -33,7 +33,7 @@ to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
   ```
   $ git clone https://github.com/JHale716/ArduinoJson5.git ArduinoJson-v5.13.5
   ```
-  This will place the repo and the ArduinoJson-v5.13.5.h file for ArduinoJson5 into this folder.
+  This will place the repo and the ArduinoJson-v5.13.5.h file for ArduinoJson5 into the ArduinoJson-v5.13.5 folder.
 
   In your sketch, substitute ArduinoJson.h for ArduinoJson-v5.13.5.h and you'll be good to go!
 
