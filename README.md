@@ -1,6 +1,7 @@
 # TTGO BitCoin Tracker
 
-An adaption of https://github.com/LilyGO/TTGO-T4-DEMO to run on the https://github.com/Xinyuan-LilyGO/TTGO-T-Display
+An adaption of [TTGO T4 Demo}(https://github.com/LilyGO/TTGO-T4-DEMO)
+to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
 
   Liked the idea and have the https://github.com/Xinyuan-LilyGO/TTGO-T-Display so adapted to suit.
 
@@ -42,7 +43,7 @@ In your sketch, substitute ArduinoJson.h for ArduinoJson-v5.13.5.h and you'll be
 
 Python 2 & Python 3... the esptools.py scripts can do some interesting things.
 
-If you are getting Serial errors, then this issue log may be useful.https://github.com/espressif/esptool/issues/324
+If you are getting Serial errors, then this issue log may be useful. https://github.com/espressif/esptool/issues/324
 
 Specifically for a reasonably clean ubuntu install the following was helpful
 
