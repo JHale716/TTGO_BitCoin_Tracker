@@ -23,13 +23,17 @@ to run on the [TTGO T Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
 
   However, there is a work around, while still having Arduino Json 6 installed.
 
-  All of this is from the Arduino Json v5 site. Any linking is for convenience purposes and no code changes are intended or made to the ArduinoJson5xxx.h files. Original source https://arduinojson.org/v5/doc/installation/ (i.e. you could achieve the same thing with a download and manual placement)
+  - All of this is from the Arduino Json v5 site. 
+  - Any linking is for convenience purposes and no code changes are intended or made to the ArduinoJson5xxx.h files. 
+  - Original source https://arduinojson.org/v5/doc/installation/ (i.e. you could achieve the same thing with a download and manual placement)
 
   To execute:
 
-    Break out you favourite terminal editor
-    cd into you sketechbook libraries folder.
-    From there:
+  Break out you favourite terminal editor
+  
+  cd into you sketechbook libraries folder.
+  
+  From there:
   ```
   $ git clone https://github.com/JHale716/ArduinoJson5.git ArduinoJson-v5.13.5
   ```
